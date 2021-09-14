@@ -1,3 +1,4 @@
+/* Header and title  */
 #title {
     background-color: #ff4c68;
 }
@@ -12,7 +13,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     color: white;
@@ -20,7 +21,7 @@ h1 {
 
 /* Navigation Bar */
 .navbar {
-    padding-bottom: 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -29,3 +30,82 @@ h1 {
     font-weight: bold;
 }
 
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+/* Download Buttons  */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.center-text {
+    text-align: center; 
+    padding: 5%;
+}
+
+/* Icons */
+.fas {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+/* Testemonials */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+     width: 15%;
+     margin: 20px 20px 50px;
+}
