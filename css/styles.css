@@ -138,3 +138,45 @@ h2 {
 .custom-class {
     position: relative;
 }
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to action  */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8% 21%;
+}
+
+.cta-h3 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.my-fas {
+    color: black;
+    margin: 5px;;
+}
+
+#copyright {
+    padding-top: 3%;
+}
