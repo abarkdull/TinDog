@@ -1,6 +1,7 @@
 /* Header and title  */
 #title {
     background-color: #ff4c68;
+    padding-bottom: 6%;
 }
 
 .container-fluid {
@@ -37,7 +38,6 @@ h1 {
 .nav-link {
     font-size: 1.2rem;
     font-weight: 300;
-
 }
 
 /* Download Buttons  */
@@ -49,11 +49,16 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 p {
@@ -81,7 +86,6 @@ h3 {
 
 /* Testemonials */
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -108,4 +112,29 @@ h2 {
 .press-logo {
      width: 15%;
      margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card {
+    margin: 15px;
+}
+
+.card-btn {
+    width: 100%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.custom-class {
+    position: relative;
 }
